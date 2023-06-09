@@ -3,7 +3,7 @@ const express = require("express");
 const router = express.Router();
 const Link = require("../models/Link");
 
-const HOST = process.env.HOST || "http://localhost:5000";
+const HOST = process.env.HOST;
 
 router.post("/", async (req, res) => {
   try {

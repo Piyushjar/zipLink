@@ -4,7 +4,12 @@ const cors = require("cors");
 const connectToDatabase = require("./database/connection");
 connectToDatabase();
 
-app.use(cors());
+app.use(
+  cors({
+    credentials: true,
+    origin: process.env.CORS_URL,
+  })
+);
 app.use(express.json());
 
 app.get("/", (req, res) => {

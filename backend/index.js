@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.redirect("https://urlshortner.bitwiz.me");
+  res.send("Backend running!");
 });
 
 app.use("/short", require("./routes/shortUrl"));

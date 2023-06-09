@@ -1,0 +1,37 @@
+.container {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-head {
+  font-size: 2rem;
+  font-family: "Fira Code", monospace;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.backdrop {
+  display: flex;
+  flex-direction: column;
+}
+
+.close-btn {
+  color: gray;
+  font-size: 1.5rem;
+  background-color: rgb(245, 206, 204);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  transition: ease 0.5s;
+}
+
+.close-btn:hover {
+  background-color: #fc2947;
+  color: black;
+}

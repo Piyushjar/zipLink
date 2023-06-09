@@ -1,0 +1,11 @@
+.heading {
+  color: white;
+  font-size: 3rem;
+  font-family: "Fira Code", monospace;
+  margin: 5px;
+}
+.intro {
+  margin-top: 0px;
+  color: #f2ebe9;
+  font-family: "Fira Code", monospace;
+}
